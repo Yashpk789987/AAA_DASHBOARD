@@ -1,0 +1,36 @@
+{
+  "name": "aaa_web_react_js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nivo/line": "^0.59.1",
+    "antd": "^3.13.2",
+    "axios": "^0.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.3.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.8.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
+  },
+  "homepage": "https://yashpk789987.github.io/AAA_DASHBOARD",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
